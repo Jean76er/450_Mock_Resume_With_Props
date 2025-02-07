@@ -11,7 +11,7 @@ class Skills extends Component {
                 </div>
 
                 <div className="hd1_c2">
-                    <div className="i">
+                    <div className="skills">
                         <div className="item">
                             <p>{this.props.keySkills.content1}</p>
                             <p>{this.props.keySkills.content1}</p>

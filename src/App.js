@@ -49,13 +49,18 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
-        <Header personInfo={this.state.personInfo} contactInfo={this.state.contactInfo}></Header>
-        <hr className="title-line"></hr>
-        <PersonalProfile profile={this.state.profile}></PersonalProfile>
-        <WorkExperience workExperience={this.state.workExperience}></WorkExperience>
-        <Skills keySkills={this.state.keySkills}></Skills>
-        <Education education={this.state.education}></Education>
+      <div className="background">
+        <div className="foreground">
+          <Header personInfo={this.state.personInfo} contactInfo={this.state.contactInfo}></Header>
+          <hr className="title-line"></hr>
+          <PersonalProfile profile={this.state.profile}></PersonalProfile>
+          <hr className="body-line"></hr>
+          <WorkExperience workExperience={this.state.workExperience}></WorkExperience>
+          <hr className="body-line"></hr>
+          <Skills keySkills={this.state.keySkills}></Skills>
+          <hr className="body-line"></hr>
+          <Education education={this.state.education}></Education>
+        </div>
       </div>
     );
   }
