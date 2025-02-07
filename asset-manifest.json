@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/450_Mock_Resume_With_Props/static/css/main.75415cc6.css",
+    "main.js": "/450_Mock_Resume_With_Props/static/js/main.abef5865.js",
+    "index.html": "/450_Mock_Resume_With_Props/index.html",
+    "main.75415cc6.css.map": "/450_Mock_Resume_With_Props/static/css/main.75415cc6.css.map",
+    "main.abef5865.js.map": "/450_Mock_Resume_With_Props/static/js/main.abef5865.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75415cc6.css",
+    "static/js/main.abef5865.js"
+  ]
+}
